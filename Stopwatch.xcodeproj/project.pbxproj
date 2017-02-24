@@ -14,6 +14,7 @@
 		499662C61E569C3A003D62B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499662C41E569C3A003D62B7 /* LaunchScreen.storyboard */; };
 		499662D11E569C3A003D62B7 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499662D01E569C3A003D62B7 /* StopwatchTests.swift */; };
 		499662DC1E569C3A003D62B7 /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499662DB1E569C3A003D62B7 /* StopwatchUITests.swift */; };
+		499662EA1E569D59003D62B7 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499662E91E569D59003D62B7 /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		499662D71E569C3A003D62B7 /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499662DB1E569C3A003D62B7 /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		499662DD1E569C3A003D62B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499662E91E569D59003D62B7 /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				499662BB1E569C3A003D62B7 /* AppDelegate.swift */,
 				499662BD1E569C3A003D62B7 /* ViewController.swift */,
 				499662BF1E569C3A003D62B7 /* Main.storyboard */,
+				499662E91E569D59003D62B7 /* Stopwatch.swift */,
 				499662C21E569C3A003D62B7 /* Assets.xcassets */,
 				499662C41E569C3A003D62B7 /* LaunchScreen.storyboard */,
 				499662C71E569C3A003D62B7 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499662BE1E569C3A003D62B7 /* ViewController.swift in Sources */,
+				499662EA1E569D59003D62B7 /* Stopwatch.swift in Sources */,
 				499662BC1E569C3A003D62B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
